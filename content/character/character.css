@@ -1,0 +1,48 @@
+:root {
+	--char-img-background: #0005;
+}
+
+a {
+	width: fit-content;
+}
+
+#char_name {
+	padding-top: 1rem;
+	padding-left: 2rem;
+
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+#char_bio, #char_story, #char_ability {
+	padding-left: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+img.char_img {
+	height: 35rem;
+	width: auto;
+
+	/*Background Gradient*/
+	/*
+	 * Middle semi-trancparent Black (#0008)
+	 * Gradient to the outside
+	 * Fade to Transparent (#0000)
+	 */
+	background-color: #0001;
+	border-radius: 5rem;
+}
+
+span.char_text {
+	padding: 3rem;
+	width: 100%;
+
+	text-align: justify;
+	align-items: center;
+
+	font-size: x-large;
+}

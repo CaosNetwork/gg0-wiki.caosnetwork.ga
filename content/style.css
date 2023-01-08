@@ -1,0 +1,43 @@
+:root {
+	--background: #777;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: var(--background);
+
+	height: 100%;
+	width: 100%;
+
+	/* overflow-x: hidden; */
+}
+
+body {
+	height: inherit;
+	width: inherit;
+}
+
+*.grow {
+	flex-grow: 1;
+}
+
+*.flex_row {
+	display: flex;
+	flex-direction: row;
+}
+*.flex_rrow {
+	display: flex;
+	flex-direction: row-reverse;
+}
+*.flex_col {
+	display: flex;
+	flex-direction: column;
+}
+*.flex_rcol {
+	display: flex;
+	flex-direction: column-reverse;
+}
