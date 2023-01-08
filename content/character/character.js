@@ -34,7 +34,7 @@ getJSON(charUrl + "data.json").then(data => {
 		charData.first_name + " " +
 		charData.other_names.toString().replaceAll(",", " ") + " " +
 		charData.last_name
-	
+
 	if (charData.auto_bio) {
 		charBio.innerHTML = "TODO: Add Auto Bio.";
 	} else {
