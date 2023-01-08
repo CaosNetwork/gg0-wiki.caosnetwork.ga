@@ -8,7 +8,8 @@ charBioImg = document.getElementById("bio_img");
 charStoryImg = document.getElementById("story_img");
 charAbilityImg = document.getElementById("ability_img");
 
-baseUrl = "http://127.0.0.1:5500/content/character/";
+// baseUrl = "http://127.0.0.1:5500/content/character/";
+baseUrl = "https://gg0-wiki.caosnetwork.ga/content/character/";
 urlParam = new URLSearchParams(location.search);
 for (var [key, value] of urlParam) {
 	if (key == "c") {
