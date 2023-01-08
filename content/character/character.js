@@ -46,21 +46,3 @@ getJSON(charUrl + "data.json").then(data => {
 	charAbility.innerHTML = charData.ability.replaceAll("\n", "<br>");
 	charAbilityImg.src = charUrl + "ability.png";
 });
-// charData = {
-// 	"first_name": "Empty",
-// 	"other_names": [],
-// 	"last_name": "Character",
-// 	"age": 69,
-// 	"height": 153,
-// 	"bwh": [
-// 		420,
-// 		69,
-// 		137
-// 	],
-// 	"personality": "Tsundere",
-// 	"auto_bio": false,
-// 	"bio": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja",
-// 	"story": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja",
-// 	"ability": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja\nSOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja",
-// }
-
