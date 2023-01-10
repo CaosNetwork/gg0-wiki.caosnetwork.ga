@@ -27,13 +27,7 @@ img.char_img {
 	height: 35rem;
 	width: auto;
 
-	/*Background Gradient*/
-	/*
-	 * Middle semi-trancparent Black (#0008)
-	 * Gradient to the outside
-	 * Fade to Transparent (#0000)
-	 */
-	background-color: #0001;
+	background: radial-gradient(circle, #000 0%, #0000 100%);
 	border-radius: 5rem;
 }
 

@@ -1,25 +1,26 @@
 {
-	"first_name": "Empty",
-	"other_names": [
+	"first_name": "Empty",				// String
+	"other_names": [					// String Array - Second Names - can be null
 		null
 	],
-	"last_name": "Character",
-	"age": 69,
-	"birthday": [
-		null,
-		null,
-		null
+	"last_name": "Character",			// String - can be null
+	"age": 69,							// Integer
+	"birthday": [						// Integer Array - can be null
+		null,							// Day
+		null,							// Month
+		null							// Year
 	],
-	"height": 153,
-	"bwh": [
+	"height": 153,						// Integer - Height in Centimeters
+	"bwh": [							// Integer Array - Three Sizes - can be null
 		420,
 		69,
 		137
 	],
-	"race": "Human",
-	"gender": "Male",
-	"personality": "Tsundere",
-	"auto_bio": false,
+	"race": "Human",					// String
+	"gender": "Male",					// String - can be null
+	"personality": "Tsundere",			// String
+	"auto_bio": false,					// Boolean - Should the bio be generated automaticly?
+	// Manual Bio, Story and Ability can use '\n' for a new Line.
 	"bio": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja",
 	"story": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja",
 	"ability": "SOME VERRY LONE TEXT adsfhdjda dhfecuifnhui vausdbgzas dbijanasond asdiuabsdu ansdoinasiod abusdbiuabsdi\nbasidbuas bauisbduiasbid mpvdsfopa bsazudazu auisbdiab nsaoieioh basidbzas cbuiabsdiuba absdbazsd asicbi\nbauisdiua azusvdzuvauszd mmkdamslkmd uasghkgr sofpjdsofz ZAXB I nashduaf kaa aubsuad uabsd j ihuhasdja"

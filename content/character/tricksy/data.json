@@ -1,0 +1,26 @@
+{
+	"first_name": "Tricksy",
+	"other_names": [
+		null
+	],
+	"last_name": "",
+	"age": 26,
+	"birthday": [
+		null,
+		null,
+		2231
+	],
+	"height": 160,
+	"bwh": [
+		null,
+		null,
+		null
+	],
+	"race": "Human",
+	"gender": "Female",
+	"personality": "Providerish/Wild",
+	"auto_bio": false,
+	"bio": "First Name: Tricksy\nLast Name: Unknown\nAge: 26\nBirthday: Somewhere in the Year 2231\nHeight: ~160cm\nBWH: Not Messured\nRace: Human - Female\nPersonality: Providerish / Wild\nShe likes Acrobatics and Dancing",
+	"story": "Tricksy is a time anomaly special forces agent code name: Agent 008, wich specialises with unauthorized time travelers that currently apeared in the futuristik time line, after discovering a time rift",
+	"ability": "Tricksy is equiped with dual laser pistols, anti-gravity-grandes and is highly acrobatic. She specialises in mid to close combat action"
+}
